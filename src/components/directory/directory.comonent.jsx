@@ -11,28 +11,31 @@ class Directory extends Component {
       sections: [
         {
           title: 'Accessories',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-          id: 1
+          imageUrl: 'https://i.ibb.co/BwmRPMg/stil-D4j-Raha-Ua-Ic-unsplash.jpg',
+          id: 1,
+          size: 'large'
         },
         {
           title: 'Coats & Jackets',
-          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
-          id: 2
+          imageUrl: 'https://i.ibb.co/T4HcPnh/john-arano-i7c-DFWI7q-OU-unsplash.jpg',
+          id: 2,
+          size: 'large',
         },
         {
           title: 'Shoes',
-          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
-          id: 3
+          imageUrl: 'https://i.ibb.co/Jx1nQY9/satria-aditya-f8v-EFZ7y-Pu-Y-unsplash.jpg',
+          id: 3,
+          size: 'large',
         },
         {
           title: 'Womens',
-          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          imageUrl: 'https://i.ibb.co/b3njksW/james-barr-Zw-Qw-K9g-R58s-unsplash.jpg',
           size: 'large',
           id: 4
         },
         {
           title: 'Mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          imageUrl: 'https://i.ibb.co/Jvwf0CS/sorin-sirbu-if-Yt0s-Kd-JYk-unsplash.jpg',
           size: 'large',
           id: 5
         }
