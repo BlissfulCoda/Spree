@@ -19,5 +19,15 @@
       color: black;
       border: 1px solid black;
     }
+
+    &.google-sign-in {
+      background-color: coral;
+      color: #fff;
+
+      &:hover {
+        background-color: rgb(77, 15, 223);
+        border: none;
+      }
+    }
   }
   
