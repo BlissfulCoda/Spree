@@ -1,4 +1,8 @@
 body {
   font-family: 'Playfair Display', serif;
-  padding: 20px 80px;
+  padding: 40px 90px;
+}
+
+a {
+  text-decoration: none;
 }
