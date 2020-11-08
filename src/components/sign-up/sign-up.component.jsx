@@ -30,21 +30,21 @@ class SignUp extends Component {
       alert(`Passwords do not Match`);
       return;
     }
-      try {
-        const { user } = await auth.createUserWithEmailAndPassword(
-          email,
-          password
-        );
-        await createUserProfileDocument(user, { displayName });
-        this.setState({
-          displayName: '',
-          email: '',
-          password: '',
-          confirmPassword: ''
-        });
-      } catch (error) {
-        console.error(error);
-      }
+    try {
+      const { user } = await auth.createUserWithEmailAndPassword(
+        email,
+        password
+      );
+      await createUserProfileDocument(user, { displayName });
+      this.setState({
+        displayName: '',
+        email: '',
+        password: '',
+        confirmPassword: ''
+      });
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   handleChange = e => {
@@ -86,13 +86,12 @@ class SignUp extends Component {
           />
           <FormInput
             type="password"
-            name="ConfirmPassword"
+            name="confirmPassword"
             value={confirmPassword}
             onChange={this.handleChange}
             label="Confirm Password"
             required
           />
-
           <CustomButton type="submit">SIGN UP</CustomButton>
         </form>
       </div>
