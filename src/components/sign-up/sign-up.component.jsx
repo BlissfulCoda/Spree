@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
-import { auth } from 'google-auth-library';
 
 import {
   auth,
@@ -30,30 +29,28 @@ class SignUp extends Component {
     if (password !== confirmPassword) {
       alert(`Passwords do not Match`);
       return;
-    } else {
+    }
       try {
         const { user } = await auth.createUserWithEmailAndPassword(
           email,
           password
         );
-       await createUserProfileDocument(user, { displayName });
-       this.setState({
-        displayName: '',
-        email: '',
-        password: '',
-        confirmPassword: ''
-      });
+        await createUserProfileDocument(user, { displayName });
+        this.setState({
+          displayName: '',
+          email: '',
+          password: '',
+          confirmPassword: ''
+        });
       } catch (error) {
         console.error(error);
       }
-    }
   };
 
   handleChange = e => {
-      const { name, value } = e.target;
-
-      this.setState({ [name]: value });
-  }
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
+  };
 
   render() {
     const { displayName, email, password, confirmPassword } = this.state;
