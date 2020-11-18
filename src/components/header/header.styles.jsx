@@ -21,6 +21,7 @@ export const OptionsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
 `;
 
 export const OptionLink = styled(Link)`
