@@ -24,12 +24,11 @@ class SignIn extends Component {
     const { email, password } = this.state;
 
     try {
-      await auth.signInWithEmailAndPassword(email, password)
+      await auth.signInWithEmailAndPassword(email, password);
       this.setState({ email: '', password: '' });
-    } catch(error){
-      console.log(error)
+    } catch (error) {
+      console.log(error);
     }
-
   };
 
   handleChange = e => {
@@ -46,7 +45,7 @@ class SignIn extends Component {
         <form onSubmit={this.handleSubmit}>
           <FormInput
             name="email"
-            type='email'
+            type="email"
             value={this.state.email}
             handleChange={this.handleChange}
             label="name"
@@ -54,7 +53,7 @@ class SignIn extends Component {
           />
           <FormInput
             name="password"
-            type='password'
+            type="password"
             value={this.state.password}
             handleChange={this.handleChange}
             label="password"
@@ -65,7 +64,7 @@ class SignIn extends Component {
               Sign In
             </CustomButton>
             <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
-              Google
+              sign in with Google
             </CustomButton>
           </div>
         </form>
