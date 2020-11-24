@@ -18,7 +18,7 @@ export const MenuItemContainer = styled.div`
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
     & .content {
-      opacity: 0.9;
+      opacity: 0.7;
     }
   }
   &:first-child {
@@ -39,13 +39,13 @@ export const BackgroundImageContainer = styled.div`
 
 export const ContentContainer = styled.div`
   height: 90px;
-  padding: 0 25px;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.5;
   position: absolute;
 `;
 
@@ -53,7 +53,7 @@ export const ContentTitle = styled.span`
   font-weight: bold;
   margin-bottom: 6px;
   font-size: 22px;
-  color: #4a4a4a;
+  color: #000;
 `;
 
 export const ContentSubtitle = styled.span`
