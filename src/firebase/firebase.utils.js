@@ -9,8 +9,7 @@ const config = {
   projectId: 'spree-db-12e5f',
   storageBucket: 'spree-db-12e5f.appspot.com',
   messagingSenderId: '774687589187',
-  appId: '1:774687589187:web:f680388c394c3ddb43e5f6',
-  measurementId: 'G-1W07QTTMMV'
+  appId: '1:774687589187:web:f680388c394c3ddb43e5f6'
 };
 
 firebase.initializeApp(config);
