@@ -8,8 +8,7 @@ export const MenuItemContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #fff;
-  margin: 0 7.5px 15px;
+  margin: 0 7.5px 10px;
   overflow: hidden;
   &:hover {
     cursor: pointer;
@@ -52,11 +51,11 @@ export const ContentContainer = styled.div`
 export const ContentTitle = styled.span`
   font-weight: bold;
   margin-bottom: 6px;
-  font-size: 22px;
+  font-size: 1rem;
   color: #000;
 `;
 
 export const ContentSubtitle = styled.span`
   font-weight: lighter;
-  font-size: 16px;
+  font-size: .9rem;
 `;
