@@ -26,7 +26,7 @@ export const PreviewContainer = styled.div`
   @media screen and (max-width: 800px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 8px;
+    grid-gap: 3px;
     margin-bottom: 40px;
   }
 `;

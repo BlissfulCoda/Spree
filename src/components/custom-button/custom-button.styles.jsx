@@ -62,7 +62,7 @@ const googleSignInStyles = css`
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 
   &:hover {
-    background-color: orange;
+    background-color: #972f97;
     border: none;
   }
 `;

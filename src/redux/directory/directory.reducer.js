@@ -8,11 +8,11 @@ const INITIAL_STATE = {
       linkUrl: 'shop/accessories'
     },
     {
-      title: 'Coats & Jackets',
-      imageUrl: 'https://i.ibb.co/1vhB0qb/jackts.jpg',
-      id: 2,
+      title: 'Womens',
+      imageUrl: 'https://i.ibb.co/TvddPNG/womens.jpg',
       size: 'large',
-      linkUrl: 'shop/jackets'
+      id: 2,
+      linkUrl: 'shop/womens'
     },
     {
       title: 'Shoes',
@@ -22,18 +22,18 @@ const INITIAL_STATE = {
       linkUrl: 'shop/shoes'
     },
     {
-      title: 'Womens',
-      imageUrl: 'https://i.ibb.co/TvddPNG/womens.jpg',
-      size: 'large',
-      id: 4,
-      linkUrl: 'shop/womens'
-    },
-    {
       title: 'Mens',
       imageUrl: 'https://i.ibb.co/mzDGvyY/mens.jpg',
       size: 'large',
-      id: 5,
+      id: 4,
       linkUrl: 'shop/mens'
+    },
+    {
+      title: 'Coats & Jackets',
+      imageUrl: 'https://i.ibb.co/1vhB0qb/jackts.jpg',
+      id: 5,
+      size: 'large',
+      linkUrl: 'shop/jackets'
     }
   ]
 };
