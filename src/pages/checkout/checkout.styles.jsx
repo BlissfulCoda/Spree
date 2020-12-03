@@ -61,6 +61,6 @@ export const WarningContainer = styled.div`
   color: red;
 
   @media screen and (max-width: 800px) {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 `;
