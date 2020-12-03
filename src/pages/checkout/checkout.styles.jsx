@@ -11,6 +11,10 @@ export const CheckoutPageContainer = styled.div`
     margin-left: auto;
     margin-top: 50px;
   }
+
+  @media screen and (max-width: 800px) {
+    width: 95%;
+  }
 `;
 
 export const CheckoutHeaderContainer = styled.div`
@@ -18,7 +22,11 @@ export const CheckoutHeaderContainer = styled.div`
   height: 40px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid darkgrey;
+  border-bottom: 1px solid blue;
+
+  @media screen and (max-width: 800px) {
+    margin-right: 20px;
+  }
 `;
 
 export const HeaderBlockContainer = styled.div`
@@ -27,12 +35,23 @@ export const HeaderBlockContainer = styled.div`
   &:last-child {
     width: 8%;
   }
+
+  @media screen and (max-width: 800px) {
+    width: 22%
+    &:last-child {
+      width: 12%;
+    }
+  }
 `;
 
 export const TotalContainer = styled.div`
   margin-top: 30px;
   margin-left: auto;
   font-size: 36px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.8rem;
+  }
 `;
 
 export const WarningContainer = styled.div`
@@ -40,4 +59,8 @@ export const WarningContainer = styled.div`
   margin-top: 40px;
   font-size: 24px;
   color: red;
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.2rem;
+  }
 `;
